@@ -3,15 +3,15 @@ server:
 
 application:
   unidbg:
-    dynarmic: false
+    dynarmic: true
     verbose: false
-    async: false
+    async: true
 
 spring:
   application:
-    name: unidbg-boot-server
+    name: unidbg-mt-server
   profiles:
-    active: dev
+    active: pro
   task:
     execution:
       pool:
