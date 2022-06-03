@@ -47,14 +47,10 @@ public class UnidbgServerApplication {
         log.info("\n----------------------------------------------------------\n\t"
                 + "应用: \t\t{} 已启动!\n\t"
                 + "地址: \t\thttp://{}:{}{}\n\t"
-                + "演示访问: \tcurl http://{}:{}{}api/tt-encrypt/encrypt (linux)\n\t"
-                + "演示访问: \thttp://{}:{}{}api/tt-encrypt/encrypt (windows: 浏览器直接打开)\n\t"
-                + "常见问题: \thttps://github.com/anjia0532/unidbg-boot-server/blob/main/QA.md\n\t"
+                + "访问地址: \thttp://{}:{}{}api/meituan/do-work\n\t"
+                + "发送参数(json格式发送): \t{\"url\":\"网址\",\"params\":\"post的参数,get留空\",\"method\":\"访问方式(post或者get)\"}\n\t"
                 + "配置文件: \t{}\n----------------------------------------------------------",
             StringUtils.defaultIfBlank(env.getProperty(SPRING_APPLICATION_NAME), DEFAULT_APPLICATION_NAME),
-            hostAddress,
-            serverPort,
-            contextPath,
             hostAddress,
             serverPort,
             contextPath,
