@@ -174,6 +174,40 @@ public class MeiTuanService extends AbstractJni implements IOResolver {
     public void initMain() {
         // so init
         NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 1, ArrayObject.newStringArray(vm, "9b69f861-e054-4bc4-9daf-d36ae205ed3e"));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 4, ProxyDvmObject.createObject(vm, new Object[1]));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 31, new ArrayObject(new ByteArray(vm, hexStringToByteArray("")), new StringObject(vm, "aesKey")));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 31, new ArrayObject(new ByteArray(vm, hexStringToByteArray("")), new StringObject(vm, "aesKey")));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 49, ProxyDvmObject.createObject(vm, new Object[0]));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 3, ProxyDvmObject.createObject(vm, new Object[1]));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 53, ProxyDvmObject.createObject(vm, new Object[]{DvmInteger.valueOf(vm, 316)}));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 53, ProxyDvmObject.createObject(vm, new Object[]{DvmInteger.valueOf(vm, 317)}));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 53, ProxyDvmObject.createObject(vm, new Object[]{DvmInteger.valueOf(vm, 153)}));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 53, ProxyDvmObject.createObject(vm, new Object[]{DvmInteger.valueOf(vm, 153)}));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 53, ProxyDvmObject.createObject(vm, new Object[]{DvmInteger.valueOf(vm, 127)}));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 53, ProxyDvmObject.createObject(vm, new Object[]{DvmInteger.valueOf(vm, 512)}));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 53, ProxyDvmObject.createObject(vm, new Object[]{DvmInteger.valueOf(vm, 24)}));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 53, ProxyDvmObject.createObject(vm, new Object[]{DvmInteger.valueOf(vm, 29)}));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 53, ProxyDvmObject.createObject(vm, new Object[]{DvmInteger.valueOf(vm, 138)}));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 4, new ArrayObject());
+//        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 1, new ArrayObject(new StringObject(vm, "e4709324d998c52231ad3e46b6387accdb619ca1a308ac7118721cfa3a097ed95c6a52cd52a59cdb84693ebf9b72cd7959f1cc9be00bdaaf8ee3a5cbcfa8184d3cf67876925281388db2d06bb02a892e56af63f8ab27e9d89cffd1739643cd1f")));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 1, new ArrayObject(new StringObject(vm, "9b69f861-e054-4bc4-9daf-d36ae205ed3e")));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 19, new ArrayObject());
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 17, new ArrayObject());
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 3, new ArrayObject());
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 53, new ArrayObject(DvmInteger.valueOf(vm, 153)));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 51, new ArrayObject(new StringObject(vm, "4"), new StringObject(vm, "")));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 51, new ArrayObject(new StringObject(vm, "8"), new StringObject(vm, "")));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 51, new ArrayObject(new StringObject(vm, "2"), new StringObject(vm, "")));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 51, new ArrayObject(new StringObject(vm, "7"), new StringObject(vm, "")));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 51, new ArrayObject(new StringObject(vm, "1"), new StringObject(vm, "")));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 53, new ArrayObject(DvmInteger.valueOf(vm, 153)));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 53, new ArrayObject(DvmInteger.valueOf(vm, 317)));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 53, new ArrayObject(DvmInteger.valueOf(vm, 316)));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 53, new ArrayObject(DvmInteger.valueOf(vm, 127)));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 53, new ArrayObject(DvmInteger.valueOf(vm, 512)));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 53, new ArrayObject(DvmInteger.valueOf(vm, 24)));
+        NBridge.callStaticJniMethodObject(emulator, "main(I[Ljava/lang/Object;)[Ljava/lang/Object;", 53, new ArrayObject(DvmInteger.valueOf(vm, 29)));
+
     }
 
     @Override
@@ -231,10 +265,10 @@ public class MeiTuanService extends AbstractJni implements IOResolver {
                 }
                 if (cmd == 40) {
                     // a7,xid
-                    return new StringObject(vm, "mQdbBQwCbnV0AjyUCvTxIFwTmnlLMCcZOoYL7mn9S/OnMFTbbaXkS/vOyUlB7ZnxoOnznY8gX6vj75iDx/vCJGlbJcwgJcBH77QxkDC9xFE=");
+                    return new StringObject(vm, "ChC0KOFzrx6Q9nknGeNbKBnVmztAE6LW2nMYbiTF+hjmHkf/ToA8SDLjODLlnPYhI4dat1iPZmZtHGm7NiPJLkhSwZzjBhbcTSP7RkK7kNk=");
                 }
                 if (cmd == 32) {
-                    return new StringObject(vm, "{\"health\":2,\"level\":100,\"plugged\":1,\"present\":true,\"scale\":100,\"status\":2,\"telephony\":\"Li-poly\",\"temperature\":2,\"voltage\":4334}");
+                    return new StringObject(vm, "{\"health\":0,\"level\":100,\"plugged\":1,\"present\":true,\"scale\":100,\"status\":2,\"telephony\":\"Li-poly\",\"temperature\":2,\"voltage\":4334}");
                 }
                 if (cmd == 19) {
                     return new StringObject(vm, "ICM20690");
@@ -246,7 +280,7 @@ public class MeiTuanService extends AbstractJni implements IOResolver {
                     return new StringObject(vm, "0");
                 }
                 if (cmd == 26) {
-                    return new StringObject(vm, "[2,100]");
+                    return new StringObject(vm, "[0,0]");
                 }
                 if (cmd == 37) {
                     return new StringObject(vm, "");
@@ -260,7 +294,7 @@ public class MeiTuanService extends AbstractJni implements IOResolver {
                 }
                 if (cmd == 28) {
                     // AppInfoWorker.getFirstLaunchTime(MTGuard.getAdapter().a);
-                    return new StringObject(vm, "1653727513999");
+                    return new StringObject(vm, System.currentTimeMillis() + "");
                 }
                 if (cmd == 29) {
                     // n.a(MTGuard.getAdapter().a).a();
@@ -268,7 +302,7 @@ public class MeiTuanService extends AbstractJni implements IOResolver {
                 }
                 if (cmd == 46) {
                     // i.a(MTGuard.getAdapter().a).b();
-                    return new StringObject(vm, "0.0000000000|0.0000000000");
+                    return new StringObject(vm, "1|1");
                 }
                 if (cmd == 34) {
                     // l.b().toString();
@@ -294,16 +328,16 @@ public class MeiTuanService extends AbstractJni implements IOResolver {
                     return new StringObject(vm, "/data/user/0/com.sankuai.meituan/cache");
                 }
                 if (propertyName.equals("http.proxyHost")) {
-                    return null;
+                    return new StringObject(vm, "");
                 }
                 if (propertyName.equals("https.proxyHost")) {
-                    return null;
+                    return new StringObject(vm, "");
                 }
                 if (propertyName.equals("http.proxyPort")) {
-                    return null;
+                    return new StringObject(vm, "");
                 }
                 if (propertyName.equals("https.proxyPort")) {
-                    return null;
+                    return new StringObject(vm, "");
                 }
             }
             case "android/os/SystemProperties->get(Ljava/lang/String;)Ljava/lang/String;": {
@@ -315,17 +349,17 @@ public class MeiTuanService extends AbstractJni implements IOResolver {
                 if (propertName.equals("persist.sys.usb.config")) {
                     // irabbit!! 检测adb调试
 //                    return new StringObject(vm, "adb");
-                    return new StringObject(vm, "adb");
+                    return new StringObject(vm, "none");
                 }
                 if (propertName.equals("sys.usb.config")) {
                     // irabbit!! 检测adb调试
 //                    return new StringObject(vm, "adb");
-                    return new StringObject(vm, "adb");
+                    return new StringObject(vm, "none");
                 }
                 if (propertName.equals("sys.usb.state")) {
                     // irabbit!! 检测adb调试
 //                    return new StringObject(vm, "adb");
-                    return new StringObject(vm, "adb");
+                    return new StringObject(vm, "none");
                 }
                 if (propertName.equals("ro.debuggable")) {
                     return new StringObject(vm, "0");
