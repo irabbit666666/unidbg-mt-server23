@@ -4,6 +4,6 @@ vx: irabbit666
 
 
 # 打包
-mvn package -T10 -DskipTests
+mvnw package -T10 -DskipTests
 # 运行
 java -jar target\unidbg-boot-server-0.0.1-SNAPSHOT.jar
